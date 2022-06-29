@@ -1,1 +1,1 @@
-# Bootstrap5 ile ilgili çalıma dokümanlarım
+# Bootstrap5 ile ilgili çalışma dokümanlarım
