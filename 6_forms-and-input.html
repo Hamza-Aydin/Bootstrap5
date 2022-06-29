@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Input-Bootstrap5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"> 
+    
+</head>
+<body>
+    <div class="container">
+        
+        <form style="width:30rem ;">
+            <h3>Bilgilerinizi Girin:</h3>
+            <hr>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" class="form-control">
+                <small class="form-text text-danger">*Bu alanı doldurmak zorunludur</small>
+            </div>
+            <div class="form-group">
+                <label for="languages">Diller:</label>
+                <select id="languages" class="form-select">
+                    <option selected>İngilizce</option>
+                    <option>Arapça</option>
+                    <option>Almanca</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="massage">Mesajınız:</label>
+                <textarea name="massage" id="massage" rows="5" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input type="checkbox" id="accept" class="form-check-input">
+                    <label for="accept" class="form-check-text">sözleşmeyi okudum</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="languages">Diller:</label>
+                        <select id="languages" class="form-select">
+                            <option selected>İngilizce</option>
+                            <option>Arapça</option>
+                            <option>Almanca</option>
+                        </select>
+                    </div>    
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="languages">Diller:</label>
+                        <select id="languages" class="form-select">
+                            <option selected>İngilizce</option>
+                            <option>Arapça</option>
+                            <option>Almanca</option>
+                        </select>
+                    </div>    
+                </div>
+            </div>
+            <button class="btn btn-primary d-block" type="submit">Gönder</button>
+        </form>
+        
+    </div>
+</body>
+</html>
